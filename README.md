@@ -168,6 +168,12 @@ Includes all Basic features plus:
    [ ![ZoneShield Architecture](https://raw.githubusercontent.com/samarthjoshi2018-a11y/zoneshield/56ab65ca09ff782017e1e97cc93c230bdc3caf9f/image%20(1).png)](https://raw.githubusercontent.com/samarthjoshi2018-a11y/zoneshield/56ab65ca09ff782017e1e97cc93c230bdc3caf9f/image%20%281%29.png)
 
 ![ZoneShield Image](https://raw.githubusercontent.com/samarthjoshi2018-a11y/zoneshield/ad562425834be0b1f67847ec02b553546fe0b654/image%20%282%29.png)
+
+![ZoneShield Image 3](https://raw.githubusercontent.com/samarthjoshi2018-a11y/zoneshield/85f965889368c117cc72a03eedf837dc9d026cbc/image%20%283%29.png)
+
+![ZoneShield Image 4](https://raw.githubusercontent.com/samarthjoshi2018-a11y/zoneshield/85f965889368c117cc72a03eedf837dc9d026cbc/image%20%284%29.png)
+
+![ZoneShield Image 5](https://raw.githubusercontent.com/samarthjoshi2018-a11y/zoneshield/85f965889368c117cc72a03eedf837dc9d026cbc/image%20%285%29.png)
 ---
 #  Author
 
