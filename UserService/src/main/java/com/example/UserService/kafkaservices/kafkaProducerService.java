@@ -13,7 +13,7 @@ public class kafkaProducerService {
     private KafkaTemplate<String, BreachedEvent> kafkaTemplate;
 
     public void sendBreachedEmail(BreachedEvent breachedEvent) {
-        kafkaTemplate.send("breached", breachedEvent);
+        kafkaTemplate.send("Breached", breachedEvent);
         System.out.println("Breached email sent to Kafka topic: " + breachedEvent.getEmail1() + ", " + breachedEvent.getEmail2() + ", " + breachedEvent.getEmail3());
     }
 }

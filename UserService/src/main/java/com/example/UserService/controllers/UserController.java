@@ -8,15 +8,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 
 import com.example.UserService.pojo.UserServiceDetails;
 import com.example.UserService.pojo.serviceDetails;
 import com.example.UserService.services.UserService;
 
-import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
 
 
 @Controller
@@ -42,7 +39,9 @@ public class UserController {
 
     @PostMapping("/breached")
     public ResponseEntity<?> sendBreachedEmail(@RequestBody UserServiceDetails usd) {
-        // us.sendBreachedEmail(usd);
+        System.out.println("Email="+usd.getEmail());
+        System.out.println("firstemail="+usd.getFirstEmail());
+        us.sendBreachedEmail(usd);
         System.out.println("breached called");
         return ResponseEntity.ok("Breached email sent successfully");
     }

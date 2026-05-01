@@ -49,7 +49,7 @@ public class AuthController {
                     .maxAge(24 * 60 * 60)
                     .build();
 
-            // authService.generateLoginEmail(u);
+            authService.generateLoginEmail(u);
 
             return ResponseEntity.ok()
                     .header(HttpHeaders.SET_COOKIE, cookie.toString())

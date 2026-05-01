@@ -60,8 +60,10 @@ public class UserService {
     }
 
     public void sendBreachedEmail(UserServiceDetails usd) {
-
+      
+        System.out.println("breached called");
         BreachedEvent event = new BreachedEvent();
+        System.out.println("breached email send called");
         event.setEmail1(usd.getFirstEmail());
         event.setEmail2(usd.getSecondEmail());
         event.setEmail3(usd.getThirdEmail());

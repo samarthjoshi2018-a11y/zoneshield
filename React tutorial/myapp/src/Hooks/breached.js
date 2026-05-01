@@ -5,11 +5,10 @@ import api from "../api/api";
 
 export const breached = () => {
     const dispatch = useDispatch();
-    const { locked, breached, email, firstEmail, secondEmail, thirdEmail } = useSelector((state) => state.auth);
+    const { locked, breached, email, firstemail, secondemail, thirdemail } = useSelector((state) => state.auth);
 
     const [cooldown, setCooldown] = useState(false);
-    const timerRef = useRef(null); // ✅ persists across renders
-
+    const timerRef = useRef(null); 
     useEffect(() => {
         // 🔴 If unlocked → clear everything
         if (!locked) {
@@ -29,9 +28,9 @@ export const breached = () => {
 
                 await api.post("/userinfo/breached",{
                     email,
-                    firstEmail:firstEmail,
-                    secondEmail:secondEmail,
-                    thirdEmail:thirdEmail
+                    firstEmail:firstemail,
+                    secondEmail:secondemail,
+                    thirdEmail:thirdemail
                 });
 
                 setCooldown(true);

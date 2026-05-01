@@ -31,6 +31,7 @@ public class emailConsumer {
     @KafkaListener(topics = "Breached", groupId = "email-group")
     public void consumeBreached(BreachedEvent event) {
         System.out.println("Received event: " + event);
+        System.out.println("Email reciced 1 "+event.getEmail1());
         mailservice.sendBreachedEmail(event);
     }
 

@@ -149,7 +149,7 @@ const authSlice = createSlice({
             .addCase(fetchUser.fulfilled, (state, action) => {
                 const data = action.payload;
                 state.email = data.email ?? null;
-                state.service = data.service ?? null;
+                state.service = data.type ?? null;
                 state.isAuthenticated = true;
                 state.loading = false;
                 console.log("User data set in state:", {
