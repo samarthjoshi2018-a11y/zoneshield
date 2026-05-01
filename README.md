@@ -160,7 +160,8 @@ Includes all Basic features plus:
 
 - Technology can be used in anroid application (Android/iOS)
 - Can be used in IOT devices like smartwatches
-- Real-time tracking dashboard improvements
+- Highly scalable due to microservices architecture
+- can be used for balancing high loads
   
 
 ---
