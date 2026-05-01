@@ -174,6 +174,8 @@ Includes all Basic features plus:
 ![ZoneShield Image 4](https://raw.githubusercontent.com/samarthjoshi2018-a11y/zoneshield/85f965889368c117cc72a03eedf837dc9d026cbc/image%20%284%29.png)
 
 ![ZoneShield Image 5](https://raw.githubusercontent.com/samarthjoshi2018-a11y/zoneshield/85f965889368c117cc72a03eedf837dc9d026cbc/image%20%285%29.png)
+
+![ZoneShield Screenshot](https://raw.githubusercontent.com/samarthjoshi2018-a11y/zoneshield/7cffa982e98c334bc2b9247ce6f2c2c7d7e3a94a/WhatsApp%20Image%202026-05-01%20at%203.08.55%20PM.jpeg)
 ---
 #  Author
 
