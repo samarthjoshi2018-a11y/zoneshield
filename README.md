@@ -165,7 +165,7 @@ Includes all Basic features plus:
 
 ---
 #  Images
-    ![ZoneShield Architecture]()
+    ![ZoneShield Architecture](https://raw.githubusercontent.com/samarthjoshi2018-a11y/zoneshield/56ab65ca09ff782017e1e97cc93c230bdc3caf9f/image%20(1).png)
 ---
 #  Author
 
